@@ -10,12 +10,18 @@ TODO: The top-ranked model was the (add features) model named WeightedEnsemble_L
 
 ## Exploratory data analysis and feature creation
 ### What did the exploratory analysis find and how did you add additional features?
-Features like season and weather are categorical variables.\n
-Bike rental counts for feature season intuitively makes sense as the counts are highest for 0: Spring and lowest for 3: Winter\n
-Predictors like holiday and workingday are one-hot encoded columns with values 0 and 1.\n
-datetime histogram illustrates datetime feature, showing randomness as they represent timestamps\n
-features like temp, atemp, humidity and windspeed depicts normal distribution. windspeed shows a slightly 'positively-skewed distribution'.\n
-casual and registered independent feature histogram plots are ignored as they are invalid for our analysis, since they are absent in the test dataset.\n
+Features like season and weather are categorical variables.
+
+Bike rental counts for feature season intuitively makes sense as the counts are highest for 0: Spring and lowest for 3: Winter
+
+Predictors like holiday and workingday are one-hot encoded columns with values 0 and 1.
+
+datetime histogram illustrates datetime feature, showing randomness as they represent timestamps
+
+features like temp, atemp, humidity and windspeed depicts normal distribution. windspeed shows a slightly 'positively-skewed distribution'.
+
+casual and registered independent feature histogram plots are ignored as they are invalid for our analysis, since they are absent in the test dataset.
+
 
 Variation is seen on hourly basis. So splitting the 'datetime' feature into year, month, day (dayofweek) and hour respectively.
 
