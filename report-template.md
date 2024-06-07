@@ -6,7 +6,7 @@
 TODO: we had to make sure there is no negative value and if there is any negative value we turn it to zero
 
 ### What was the top ranked model that performed?
-TODO: The top-ranked model was the (add features) model named WeightedEnsemble_L2, with a validation RMSE score of 37.9800 and the best Kaggle score of 0.44883 (on test dataset). 
+TODO: The top-ranked model was the (add features) model named WeightedEnsemble_L2, with a validation RMSE score of 37.963095 and the best Kaggle score of 0.44883 (on test dataset). 
 
 ## Exploratory data analysis and feature creation
 ### What did the exploratory analysis find and how did you add additional features?
@@ -45,7 +45,7 @@ TODO: I would work more on hyper parameter optimizationand adding more features
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
-![model_train_score.png](img/model_test_score.png)
+![model_test_score.png](img/model_test_score.png)
 
 
 
