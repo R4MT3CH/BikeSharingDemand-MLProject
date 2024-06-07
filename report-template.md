@@ -33,10 +33,11 @@ TODO: model performance with hyper parameters gives 0.55799 which was better tha
 TODO: I would work more on hyper parameter optimizationand adding more features
 
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
-    model	                    hpo1	                                hpo2	            hpo3	                                    score
-0	initial	                    prescribed_values	                    prescribed_values	presets: 'high quality' (auto_stack=True)	1.84007
-1	add_features	            prescribed_values	                    prescribed_values	presets: 'high quality' (auto_stack=True)	0.44883
-2	hpo (top-hpo-model: hpo2)	Tree-Based Models: (GBM, XT, XGB & RF)	KNN	                presets: 'optimize_for_deployment	        0.49469
+|model|hpo1|hpo2|hpo3|score|
+|--|--|--|--|--|
+|initial|prescribed_values|prescribed_values|"presets: 'high quality' (auto_stack=True)"|1.84007|
+|add_features|prescribed_values|prescribed_values|"presets: 'high quality' (auto_stack=True)"|0.44883|
+|hpo (top-hpo-model: hpo2)|Tree-Based Models: (GBM, XT, XGB & RF)|KNN|"presets: 'optimize_for_deployment"|0.49469|
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 /img/model_train_score.png
