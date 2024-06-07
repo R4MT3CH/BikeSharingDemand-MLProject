@@ -37,7 +37,7 @@ TODO: I would work more on hyper parameter optimizationand adding more features
 |--|--|--|--|--|
 |initial|prescribed_values|prescribed_values|"presets: 'high quality' (auto_stack=True)"|1.84007|
 |add_features|prescribed_values|prescribed_values|"presets: 'high quality' (auto_stack=True)"|0.44883|
-|hpo (top-hpo-model: hpo2)|Tree-Based Models: (GBM, XT, XGB & RF)|KNN|"presets: 'optimize_for_deployment"|0.49469|
+|hpo (top-hpo-model: hpo1)|Tree-Based Models: (GBM, XT, XGB & RF)|KNN|"presets: 'optimize_for_deployment"|0.49469|
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 /img/model_train_score.png
